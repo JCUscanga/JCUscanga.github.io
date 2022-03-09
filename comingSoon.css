@@ -8,64 +8,63 @@
   --Color-terciario: black;
 }
 
- body {
-    background-image: url(Principal.png);
-    background-repeat: repeat;
-    background-size: auto 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100vh;
-    width: 100vw;
-    font-size: 1vw;
-  }
-  main {
-    width: 40vw;
-    height: 10vw;
-    background-color: black;
-    color: var(--Color-principal);
-    text-align: center;
-    font-size: 500%;
-    font-family: "Cooper Black Regular";
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 .28rem red;
-  }
-  .Subtitle{
-    font-size: 60%;
-  }
-  nav {
-    position: absolute;
-    font-size: 200%;
-    background-color: black;
-    left: 80vw;
-    width: 20vw;
-    display: flex;
-    justify-content: space-around;
-    height: 8vw;
-    align-items: center;
-    top: 0vh;
-  }
-  a {
-    text-decoration: none;
-  }
-
-  a:link {
-    color: var(--Color-principal);
-  }
-
-  a:visited {
-    color: var(--Color-principal);
-  }
-
-  a:hover {
-    color: var(--Color-principal);
-  }
-
-  a:active {
-    color: var(--Color-principal);
-  }
+body {
+  background-image: url(Principal.png);
+  background-repeat: repeat;
+  background-size: auto 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.5vw;
 }
+main {
+  padding: 4vh 4vw;
+  background-color: black;
+  color: var(--Color-principal);
+  text-align: center;
+  font-size: 500%;
+  font-family: "Cooper Black Regular";
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 0.28rem red;
+}
+.Subtitle {
+  font-size: 60%;
+}
+nav {
+  position: absolute;
+  font-size: 200%;
+  background-color: black;
+  left: 80vw;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  height: 8vw;
+  align-items: center;
+  top: 0vh;
+}
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--Color-principal);
+}
+
+a:visited {
+  color: var(--Color-principal);
+}
+
+a:hover {
+  color: var(--Color-principal);
+}
+
+a:active {
+  color: var(--Color-principal);
+}
+
