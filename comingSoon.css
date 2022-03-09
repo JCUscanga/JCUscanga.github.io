@@ -11,17 +11,17 @@
  body {
     background-image: url(Principal.png);
     background-repeat: repeat;
-    background-size: 10vw auto;
+    background-size: auto 10vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
     width: 100vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
   }
   main {
-    width: 50vw;
-    height: 40vh;
+    width: 40vw;
+    height: 10vw;
     background-color: black;
     color: var(--Color-principal);
     text-align: center;
@@ -31,6 +31,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 .28rem red;
+  }
+  .Subtitle{
+    font-size: 60%;
   }
   nav {
     position: absolute;
