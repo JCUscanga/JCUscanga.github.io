@@ -45,9 +45,9 @@
     width: 20vw;
     display: flex;
     justify-content: space-around;
-    height: 20vh;
+    height: 8vw;
     align-items: center;
-    bottom: 80vh;
+    top: 0vh;
   }
   a {
     text-decoration: none;
