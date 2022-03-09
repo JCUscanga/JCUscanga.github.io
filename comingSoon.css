@@ -31,7 +31,7 @@ main {
   align-items: center;
   justify-content: center;
 
-  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 0.28rem red;
+  text-shadow: 0 0 red, 0 0 red, 0 0 red, 0 0.07em red;
 }
 .Subtitle {
   font-size: 60%;
@@ -67,4 +67,3 @@ a:hover {
 a:active {
   color: var(--Color-principal);
 }
-
