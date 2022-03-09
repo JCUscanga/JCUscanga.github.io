@@ -7,55 +7,60 @@
   --Color-secundario: white;
   --Color-terciario: black;
 }
-body {
-  background-image: url(Principal.png);
-  background-repeat: repeat;
-  background-size: 10vw auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 100vh;
-  width: 100vw;
-}
-main {
-  width: 50vw;
-  height: 40vh;
-  background-color: black;
-  color: var(--Color-principal);
-  text-align: center;
-  font-size: 500%;
-  line-height: 300%;
-  font-family: "Cooper Black Regular";
-  font-weight: normal;
-}
-nav {
-  position: absolute;
-  font-size: 200%;
-  background-color: black;
-  left: 80vw;
-  width: 20vw;
-  display: flex;
-  justify-content: space-around;
-  height: 20vh;
-  align-items: center;
-  bottom: 80vh;
-}
-a {
-  text-decoration: none;
-}
 
-a:link {
-  color: var(--Color-principal);
-}
+ body {
+    background-image: url(Principal.png);
+    background-repeat: repeat;
+    background-size: 10vw auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.5vw;
+  }
+  main {
+    width: 50vw;
+    height: 40vh;
+    background-color: black;
+    color: var(--Color-principal);
+    text-align: center;
+    font-size: 500%;
+    font-family: "Cooper Black Regular";
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    position: absolute;
+    font-size: 200%;
+    background-color: black;
+    left: 80vw;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+    bottom: 80vh;
+  }
+  a {
+    text-decoration: none;
+  }
 
-a:visited {
-  color: var(--Color-principal);
-}
+  a:link {
+    color: var(--Color-principal);
+  }
 
-a:hover {
-  color: var(--Color-principal);
-}
+  a:visited {
+    color: var(--Color-principal);
+  }
 
-a:active {
-  color: var(--Color-principal);
+  a:hover {
+    color: var(--Color-principal);
+  }
+
+  a:active {
+    color: var(--Color-principal);
+  }
 }
